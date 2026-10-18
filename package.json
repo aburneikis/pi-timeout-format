@@ -1,9 +1,16 @@
 {
   "name": "pi-timeout-format",
   "version": "1.0.0",
-  "description": "Show bash tool timeouts as durations (5m, 1h 30m) in the pi TUI",
-  "keywords": ["pi-package"],
+  "description": "Show bash tool timeouts as readable durations (5m, 1h 30m) in the pi TUI",
+  "keywords": ["pi-package", "pi-extension"],
+  "license": "MIT",
+  "author": "Alexander Burneikis",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aburneikis/pi-timeout-format.git"
+  },
   "type": "module",
+  "files": ["index.ts", "README.md", "LICENSE"],
   "pi": {
     "extensions": ["./index.ts"]
   },
